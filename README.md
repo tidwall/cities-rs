@@ -1,7 +1,6 @@
 # 10,000 Cities with Latitude, Longitude, and Elevation
 
 [![travis](https://img.shields.io/travis/tidwall/cities-rs.svg)](https://travis-ci.org/tidwall/cities-rs/)
-[![crates.io](https://img.shields.io/crates/d/cities.svg)](https://crates.io/crates/cities)
 [![version](https://img.shields.io/crates/v/cities.svg)](https://crates.io/crates/cities/)
 
 <img src="http://i.imgur.com/i9hcVJ5.gif">
