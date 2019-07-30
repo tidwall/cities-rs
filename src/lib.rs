@@ -1,3 +1,4 @@
+#[derive(Debug)]
 pub struct City {
     pub id: usize,
     pub country: &'static str,
@@ -27,7 +28,11 @@ impl City {
     }
 }
 
-pub const CITIES: [City; 10596] = [
+pub fn all() -> &'static [City] {
+	&ALL_CITIES[..]
+}
+
+const ALL_CITIES: [City; 10596] = [
 	City::new(1, "Afghanistan", "Kabul", 34.5166667, 69.1833344, 1808.0),
 	City::new(2, "Afghanistan", "Kandahar", 31.6100000, 65.6999969, 1015.0),
 	City::new(3, "Afghanistan", "Mazar-e Sharif", 36.7069444, 67.1122208, 369.0),

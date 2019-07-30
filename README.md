@@ -8,6 +8,17 @@
 
 <img src="http://i.imgur.com/i9hcVJ5.gif">
 
+## Usage
+
+The `all()` function returns a slice to the static cities array.
+
+```rust
+for city in cities::all(){
+    println!("{:?}", city);
+}
+```
+
+
 Looking for the [Go version](https://github.com/tidwall/cities)?
 
 Animation created using [pinhole](https://github.com/tidwall/pinhole). 
